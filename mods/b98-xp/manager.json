@@ -1,0 +1,16 @@
+{
+  "settings": {
+    "doporucene": { "label": "Doporučené nastavení", "desc": "XP ×2 všude, 2 skill pointy za level, skupina bez postihu. Když je zapnuté, hodnoty níže se nepoužijí." },
+    "xp_boj": { "label": "XP za boj (násobič)", "desc": "1 = jako ve hře, 2 = dvojnásobek…", "min": 0.1, "max": 100, "step": 0.5 },
+    "xp_tezba": { "label": "XP za těžbu (násobič)", "min": 0.1, "max": 100, "step": 0.5 },
+    "xp_pruzkum": { "label": "XP za průzkum, lore a sbírky (násobič)", "min": 0.1, "max": 100, "step": 0.5 },
+    "xp_questy": { "label": "XP za questy (násobič)", "min": 0.1, "max": 100, "step": 0.5 },
+    "skill_pointy_za_level": { "label": "Skill pointy za každý level", "min": 1, "max": 50, "step": 1, "type": "int" },
+    "multiplayer_bez_postihu": { "label": "Ve skupině bez postihu XP", "desc": "Při hraní s ostatními se XP nesnižuje a ostatní hráči dostávají plný podíl." }
+  },
+  "presets": {
+    "doporucene": {
+      "true": { "xp_boj": 2, "xp_tezba": 2, "xp_pruzkum": 2, "xp_questy": 2, "skill_pointy_za_level": 2, "multiplayer_bez_postihu": true }
+    }
+  }
+}

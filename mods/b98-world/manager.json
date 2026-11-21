@@ -1,0 +1,21 @@
+{
+  "settings": {
+    "rozsah": { "label": "Rozsah posuvníků", "desc": "Jak daleko půjdou posuvníky v Nastavení světa.",
+                "options": [["doporuceny", "Doporučený (rozumné limity)"], ["velky", "Hodně volný"], ["vlastni", "Vlastní (hodnoty níže)"]] },
+    "max_rychlost": { "label": "Max. násobič rychlosti", "desc": "Růst rostlin, výroba ve stanicích, těžba, množství surovin a XP.", "min": 1, "max": 100, "step": 1 },
+    "max_sila_hrace": { "label": "Max. síla hráče", "desc": "Zdraví, mana, výdrž, odolnost proti chladu a čas pod vodou.", "min": 1, "max": 100, "step": 0.5 },
+    "min_sila_hrace": { "label": "Min. síla hráče", "desc": "Nejnižší hodnota posuvníků síly hráče, času v Závoji a trvání jídla.", "min": 0.01, "max": 1, "step": 0.05 },
+    "max_sila_nepratel": { "label": "Max. síla nepřátel a bossů", "desc": "Zdraví, poškození, výdrž a vnímání nepřátel.", "min": 1, "max": 100, "step": 0.5 },
+    "min_sila_nepratel": { "label": "Min. síla nepřátel a bossů", "desc": "Nejnižší hodnota posuvníků síly nepřátel a bossů.", "min": 0.01, "max": 1, "step": 0.05 },
+    "max_zavoj_a_jidlo": { "label": "Max. čas v Závoji a trvání jídla", "desc": "Nejvyšší násobič času, který vydržíš v Závoji, a trvání efektů jídla.", "min": 1, "max": 100, "step": 1 },
+    "rozsah_den": { "label": "Rozsah délky dne", "desc": "Kolikrát kratší a delší den půjde nastavit oproti původním limitům hry.", "min": 1, "max": 50, "step": 1 },
+    "rozsah_noc": { "label": "Rozsah délky noci", "desc": "Kolikrát kratší a delší noc půjde nastavit oproti původním limitům hry.", "min": 1, "max": 50, "step": 1 },
+    "rozsah_hladoveni": { "label": "Rozsah času do hladovění", "desc": "Kolikrát kratší a delší čas, než začneš hladovět.", "min": 1, "max": 50, "step": 1 }
+  },
+  "presets": {
+    "rozsah": {
+      "doporuceny": { "max_rychlost": 10, "max_sila_hrace": 5, "min_sila_hrace": 0.25, "max_sila_nepratel": 5, "min_sila_nepratel": 0.1, "max_zavoj_a_jidlo": 10, "rozsah_den": 4, "rozsah_noc": 4, "rozsah_hladoveni": 4 },
+      "velky": { "max_rychlost": 25, "max_sila_hrace": 10, "min_sila_hrace": 0.1, "max_sila_nepratel": 10, "min_sila_nepratel": 0.05, "max_zavoj_a_jidlo": 25, "rozsah_den": 10, "rozsah_noc": 10, "rozsah_hladoveni": 10 }
+    }
+  }
+}

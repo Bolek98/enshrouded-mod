@@ -1,0 +1,8 @@
+{
+  "id": "b98-xp",
+  "name": "[B98] Víc XP a skill pointů",
+  "version": "1.0.0",
+  "capabilities": ["patch"],
+  "authors": ["Bolek98"],
+  "description": "Násobič zkušeností (boj, těžba, průzkum, questy), víc skill pointů za level a XP ve skupině bez postihu. Nastavení v src/config.lua."
+}

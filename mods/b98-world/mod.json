@@ -1,0 +1,8 @@
+{
+  "id": "b98-world",
+  "name": "[B98] Rozšířené nastavení světa",
+  "version": "1.0.1",
+  "capabilities": ["patch"],
+  "authors": ["Bolek98"],
+  "description": "Posuvníky v Nastavení světa jdou mnohem dál: délka dne a noci, růst rostlin, výroba, těžba, suroviny, XP, síla hráče, nepřátel a bossů, čas v Závoji, jídlo. Nastavení v src/config.lua nebo v Enshrouded Mod Manageru."
+}
